@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(240, 218, 190);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.aside {
+  flex: 30%;
+  padding: 10px;
+}
+
+.section {
+  flex: 65%;
+  padding: 10px;
+}
+
+.encabezado {
+  display: flex;
+  width: auto;
+  height: 8rem;
+  background-color: rgb(97, 56, 97);
+  margin: 10px;
+  padding-bottom: 1em;
+  border: 1px solid black;
+}
+
+.cajaUno {
+  display: inline-block;
+  width: 15em;
+  background-color: salmon;
+  height: 35rem;
+  margin: 1em;
+  border: 1px solid black;
+}
+
+.cajaDos {
+  display: block;
+  background-color: green;
+  width: 30rem;
+  height: 10rem;
+  border: 1px solid black;
+  margin: 1em;
+}
+
+.cajaTres {
+  display: block;
+  background-color: yellow;
+  width: 30rem;
+  height: 10rem;
+  border: 1px solid black;
+  margin: 1em;
+}
+
+.cajaCuatro {
+  display: inline-block;
+  height: 10rem;
+  width: 15rem;
+  background-color: blue;
+  margin: 0.5em;
+  border: 1px solid black;
+  margin-left: 1em;
+}
+
+.cajaCinco {
+  display: inline-block;
+  height: 10rem;
+  width: 15rem;
+  background-color: violet;
+  margin: 0.5em;
+  border: 1px solid black;
+  margin-left: 1em;
+}
